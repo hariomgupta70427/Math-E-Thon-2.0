@@ -2,14 +2,14 @@
   "name": "vibe-generated-app",
   "version": "1.0.0",
   "private": true,
-  "homepage": "",
+  "homepage": "https://hariomgupta70427.github.io/Math-E-Thon-2.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "predeploy": "",
-    "deploy": ""
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist --repo https://github.com/hariomgupta70427/Math-E-Thon-2.0.git"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.0.5",
